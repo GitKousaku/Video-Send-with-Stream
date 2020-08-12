@@ -30,7 +30,7 @@ int main(int argc, char *argv[]){
     addr.sin_family = AF_INET;
     addr.sin_port = htons(12345);  //ポート番号
     addr.sin_addr.s_addr = inet_addr("192.168.2.116"); //送信先IPアドレス
-    addr.sin_addr.s_addr = inet_addr("172.20.10.13"); //送信先IPアドレス
+    //addr.sin_addr.s_addr = inet_addr("172.20.10.13"); //送信先IPアドレス
     printf("test\n");
 
     printf("Trying to connect to %s: \n", "192.168.2.116");
